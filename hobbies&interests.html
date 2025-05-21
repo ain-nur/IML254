@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies & Interests - Ainnur Amni</title>
+    <style>
+        /* --- Layout --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            padding: 1rem;
+            background-color: #fafafa;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav a[aria-current] {
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .bubble-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-auto-rows: auto;
+            gap: 1.5rem;
+            align-items: stretch;
+        }
+        .bubble {
+            background: #f0f4f8;
+            border-radius: 1rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+        }
+        .bubble img {
+            width: 100px !important; /* Enlarge image */
+            height: 100px !important; /* Enlarge image */
+            border-radius: 5px;  /*Make it square*/
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 2px solid #ccc;
+        }
+        .bubble h2 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .bubble p {
+            margin: 0;
+            color: #555;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #fafafa;
+            border-top: 1px solid #ddd;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header">
+            <img src="images/header.png" alt="Ainnur Amni logo" title="Ainnur Amni | Official Personal Website"style="width:80%; height:20%;">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="Education journey.html">Education Journey</a></li>
+                <li><a href="hobbies&interests.html" aria-current="page">Hobbies & Interests</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="quotes.html">Favorite Quotes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pet corner.html">Pet Corner</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bubble-grid">
+            <article class="bubble">
+                <img src="https://sallysbakingaddiction.com/wp-content/uploads/2019/10/everything-bagel-breakfast-egg-casserole-2-850x1276.jpg" alt="Baking">
+                <h2>Baking</h2>
+                <p>My passion for baking started from my mother; I’ve fallen in love with it ever since.</p>
+            </article>
+            <article class="bubble">
+                <img src="https://www.armandhammer.com/-/media/aah/feature/articles/cat-litter-articles/make-diy-cat-toy.jpg" alt="Playing with cat">
+                <h2>Playing with Cats</h2>
+                <p>I'm always playing with my cat during my leisure time and love to spoil them.</p>
+            </article>
+            <article class="bubble">
+                <img src="https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Taking pictures">
+                <h2>Photography</h2>
+                <p>I enjoy capturing scenery photos and have learned techniques from my friends.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ainnur Amni. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
